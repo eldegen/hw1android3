@@ -11,6 +11,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:layout_width="match_parent"
         android:layout_height="250dp"
+        android:scaleType="centerCrop"
         android:src="@color/purple_700"/>
 
     <TextView
@@ -169,7 +170,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/description_blank"
-            android:textSize="18sp"
+            android:textSize="14sp"
             android:textColor="@color/black"
             />
     </LinearLayout>

@@ -19,6 +19,9 @@ public class FilmModel {
     @SerializedName("rt_score")
     String rtScore;
 
+    @SerializedName("movie_banner")
+    String movieBanner;
+
     public String getId() {
         return id;
     }
@@ -81,5 +84,13 @@ public class FilmModel {
 
     public void setRtScore(String rtScore) {
         this.rtScore = rtScore;
+    }
+
+    public String getMovieBanner() {
+        return movieBanner;
+    }
+
+    public void setMovieBanner(String movieBanner) {
+        this.movieBanner = movieBanner;
     }
 }
