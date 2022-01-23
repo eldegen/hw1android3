@@ -17,6 +17,7 @@ import com.example.hw1android3.App;
 import com.example.hw1android3.R;
 import com.example.hw1android3.data.models.FilmModel;
 import com.example.hw1android3.databinding.FragmentFilmsBinding;
+import com.example.hw1android3.ui.filmsDetail.FilmsDetailFragment;
 
 import java.util.List;
 
@@ -70,7 +71,10 @@ public class FilmsFragment extends Fragment implements OnItemClick{
 
     @Override
     public void onClick(String id) {
+        Bundle bundle = new Bundle();
+        bundle.putString("sendId", id);
+
         NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
-        navController.navigate(R.id.filmsDetailFragment);
+        navController.navigate(R.id.filmsDetailFragment, bundle);
     }
 }
