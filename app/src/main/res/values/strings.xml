@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hw1android3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="author">Author:</string>
+    <string name="producer">Producer:</string>
+    <string name="blank">blank</string>
+    <string name="duration">Duration</string>
+    <string name="time_blank">1:59</string>
+    <string name="rotten_tomatoes">Rotten Tomatoes:</string>
+    <string name="rotten_tomatoes_blank">100%</string>
+    <string name="about">About</string>
+    <string name="description_blank">description description description description description description description description description description description description description description description description description description description description description description description description description description</string>
+</resources>
